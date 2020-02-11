@@ -1,0 +1,152 @@
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+p{
+font-family: sans-serif;
+color: #8f8f8f;
+
+}
+h1{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+h2{
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  margin-top:.75rem;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+body{
+  font-family: "Montserrat";
+}
+.navbar{
+  margin-top: 0;
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-weight:lighter;
+  font-size: 1.2rem;
+}
+.down{
+  margin: 5% 3% 5% 0;
+}
+.im1{
+  width: 60%;
+  transform: rotate(25deg);
+}
+.fas{
+
+  color: #ef8172;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.r1{
+  text-align: center;
+}
+.fas:hover{
+  color: #ff4c68
+
+}
+.peb{
+  margin: 10px;
+  border-radius: 41%;
+  margin-right: 20px
+
+}
+.peb:hover{
+
+  border-color: #fff;
+  border-radius: 100%
+
+}
+.carousel-item{
+  padding: 10% 10% 10% 10%;
+}
+.card{
+  text-align: center;
+}
+.im{
+  position: absolute;
+  right: 7.5%;
+  top: 10.75rem;
+  width: 40%;
+}
+#features
+{
+  padding: 10% 10% 10% 10%;
+  position: relative;
+  z-index: 1;
+  background-color: #FFF;
+}
+#testimonials
+{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+
+}
+#press{
+  background-color: #ef8172;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+#pricing{
+  text-align: center;
+  margin-top: 3rem;
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  padding: 10% 10% 10% 10%;
+}
+.cta-head{
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 5%;
+}
+
+
+@media (max-width:1293px) {
+  .im1{
+    transform: rotate(0deg);
+  }
+}
+@media(max-width:1000px)
+{
+  .im{
+    position: static;
+    text-align: center;
+
+  }
+}
+#footer{
+  padding: 0 10% 10% 10%;
+  text-align: center;
+}
+.f1{
+  padding: 10% 1% 0;
+}
